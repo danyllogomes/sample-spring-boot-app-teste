@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-spring-boot-app-teste
+  title: sample-spring-boot-app-teste
+  annotations:
+    circleci.com/project-slug: github/piomin/sample-spring-boot-app-teste
+    github.com/project-slug: piomin/sample-spring-boot-app-teste
+    sonarqube.org/project-key: piomin_sample-spring-boot-app-teste
+  tags:
+    - spring-boot
+    - java
+    - maven
+    - circleci
+    - renovate
+    - sonarqube
+spec:
+  type: service
+  owner: piotr.minkowski@gmail.com
+  lifecycle: experimental
